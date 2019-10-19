@@ -17,8 +17,6 @@ export default class LottieControl extends React.Component {
 
     return(
       <div>
-        <h1>Lottie</h1>
-        <p>Base animation free from external manipulation</p>
         <Lottie options={defaultOptions}
               height={150}
               width={250}
