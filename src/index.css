@@ -1,4 +1,45 @@
 body {
   margin: 0;
   padding: 0;
+  background: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.heading1 {
+  font-size: 4rem;
+  font-family: 'EB Garamond', serif;
+  color: #FFA7C6;
+}
+
+.heading2 {
+  font-size: 2rem;
+  font-family: 'EB Garamond', serif;
+}
+
+.subHeading {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
+.paragraph {
+  font-size: 0.9rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.space {
+  margin-bottom: 1rem;
+}
+
+.spaceSmall {
+  margin-bottom: 0.2rem;
+}
+
+.padding {
+  margin: 0.8rem 0;
 }
