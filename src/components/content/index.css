@@ -1,0 +1,58 @@
+.content {
+  display: grid;
+  grid-template-rows: 20rem 20rem 20rem;
+  grid-template-columns: 19rem 19rem 19rem 19rem;
+  margin: 0 2rem;
+  background: white;
+}
+
+.imageSmall {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.imageBig {
+  background-size: cover;
+}
+
+.grey {
+  background-color: #eaedf0;
+}
+
+.pink {
+  background-color: #fdf1f6;
+}
+
+.blue {
+  background-color: #e9eefe;
+}
+
+.black {
+  background-color: black;
+}
+
+.white {
+  color: white;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.wide {
+  grid-column: span 2;
+  padding: 0 5rem;
+}
+
+.logo {
+  width: 3rem;
+}
+
+.logoBig {
+  width: 6rem;
+}
