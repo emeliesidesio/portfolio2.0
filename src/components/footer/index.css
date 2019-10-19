@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 7rem;
+  background: #ffe7ef;
+}
+
+.imageProfile {
+  width: 15rem;
+  border-radius: 50%;
+}
+
+.pin {
+  width: 1.5rem;
+  margin-right: 0.3rem;
+}
+
+.leftContainer {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightContainer {
+  width: 30rem;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.icon {
+  width: 2rem;
+  margin-right: 0.3rem;
+}
