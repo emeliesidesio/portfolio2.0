@@ -1,27 +1,22 @@
 import React from "react";
-import LottieControl from "components/lottieControl"
-import fries from "assets/fries-animation.gif"
-import cat from "assets/cat-animation.gif"
-import camping from "assets/camping-animation.gif"
-import dreamcatcher from "assets/dreamcatcher.png"
-import donuts from "assets/donuts.png"
-import camera from "assets/camera.png"
-import hyperisland from "assets/hi-logo-pink.jpg"
-import technigo from "assets/technigo-logo.svg"
-import adcn from "assets/adcn-logo.png"
-import fjallraven from "assets/fjallraven-logo.png"
-import mojang from "assets/mojang-logo.png"
-import hm from "assets/H&M-logo.png"
-import ivyrevel from "assets/ivyrevel-logo.png"
-import romanacorreale from "assets/romanacorreale-logo.png"
-import minecraft from "assets/minecraft-bg.jpg"
-import francesca from "assets/romanacorreale-bg.jpg"
+import LottieControl from "components/lottieControl";
+import fries from "assets/fries-animation.gif";
+import cat from "assets/cat-animation.gif";
+import dreamcatcher from "assets/dreamcatcher.png";
+import hyperisland from "assets/hi-logo-pink.jpg";
+import technigo from "assets/technigo-logo.svg";
+import adcn from "assets/adcn-logo.png";
+import fjallraven from "assets/fjallraven-logo.png";
+import mojang from "assets/mojang-logo.png";
+import hm from "assets/H&M-logo.png";
+import ivyrevel from "assets/ivyrevel-logo-white.png";
+import romanacorreale from "assets/romanacorreale-logo.png";
 import "./index.css"
 
 function Content() {
   return (
     <div className="content">
-      <div className="textContainer wide green">
+      <div className="textContainer wide blue">
         <img className="logo space" src={mojang} alt="Mojang"/>
         <div className="heading2">Mojang</div>
         <div className="subHeading padding">2018 / 2019</div>
@@ -54,7 +49,7 @@ function Content() {
         friend, fashion designer and creative director Francesca Romana Correale.
         </div>
       </div>
-      <div className="textContainer wide blue">
+      <div className="textContainer wide green">
         <img className="logo space" src={adcn} alt="ADCN"/>
         <div className="heading2">ADCN</div>
         <div className="subHeading padding">2015 / 2016</div>
@@ -72,7 +67,7 @@ function Content() {
       </div>
       <div className="imageSmall pink" style={{ backgroundImage: `url(${fries})` }}></div>
       <div className="animation grey"><LottieControl /></div>
-      <div className="textContainer">
+      <div className="textContainer black white">
         <img className="logoBig space" src={ivyrevel} alt="Ivyrevel"/>
         <div className="heading2">Ivyrevel</div>
         <div className="subHeading padding">2016</div>
@@ -80,7 +75,7 @@ function Content() {
         graphical content. Mainly focusing on developing website and newsletter.
         </div>
       </div>
-      <div className="textContainer wide red">
+      <div className="textContainer wide purple">
         <img className="logoBig space" src={fjallraven} alt="Fjällräven"/>
         <div className="heading2">Fjällräven</div>
         <div className="subHeading padding">2013 / 2015</div>

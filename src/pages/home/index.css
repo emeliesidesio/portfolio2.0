@@ -1,0 +1,24 @@
+.scrollIndicator {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 37rem;
+}
+
+.scrollIndicator img {
+  width: 1.5rem;
+}
+
+.arrowDown {
+  animation: bounce-down 1s infinite alternate;
+}
+
+@keyframes bounce-down {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}

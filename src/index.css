@@ -10,7 +10,8 @@ body {
 .heading1 {
   font-size: 4rem;
   font-family: 'EB Garamond', serif;
-  color: #FFA7C6;
+  color: #ffa7c6;
+  line-height: 1.1;
 }
 
 .heading2 {

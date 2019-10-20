@@ -1,21 +1,19 @@
-import React from 'react'
-import Lottie from 'react-lottie'
-import animationData from 'animations/icon-home.json'
+import React from "react";
+import Lottie from "react-lottie";
+import thunderBolt from "animations/thunder-bolt.json";
 
 export default class LottieControl extends React.Component {
-
-  render(){
-
+  render() {
     const defaultOptions = {
       loop: true,
       autoplay: true,
-      animationData: animationData,
+      animationData: thunderBolt,
       rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice'
+        preserveAspectRatio: "xMidYMid slice"
       }
     };
 
-    return(
+    return (
       <div>
         <Lottie options={defaultOptions}
               height={180}
