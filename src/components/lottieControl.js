@@ -18,8 +18,8 @@ export default class LottieControl extends React.Component {
     return(
       <div>
         <Lottie options={defaultOptions}
-              height={150}
-              width={250}
+              height={180}
+              width={280}
         />
       </div>
     )

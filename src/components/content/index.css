@@ -1,6 +1,6 @@
 .content {
   display: grid;
-  grid-template-rows: 20rem 20rem 20rem;
+  grid-template-rows: 20rem 20rem 20rem 20rem;
   grid-template-columns: 19rem 19rem 19rem 19rem;
   margin: 0 2rem;
   background: white;
@@ -16,6 +16,12 @@
   background-size: cover;
 }
 
+.animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .grey {
   background-color: #eaedf0;
 }
@@ -25,11 +31,19 @@
 }
 
 .blue {
-  background-color: #e9eefe;
+  background-color: #d1e1e0;
+}
+
+.green {
+  background-color: #D1DAE1;
 }
 
 .black {
   background-color: black;
+}
+
+.red {
+  background-color: #D8D1E1;
 }
 
 .white {

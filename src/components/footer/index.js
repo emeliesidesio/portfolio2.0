@@ -18,10 +18,12 @@ function Footer() {
       </div>
       <div className="rightContainer">
         <div>
-          <div className="space">My name is Emelie and I'm a frontend developer with a background in graphic
-          design and animation. I love to work in creative enviroments close to design.
+          <div className="paragraph leftAlign space">My name is Emelie and I'm a
+          frontend developer with a background in graphic design and animation.
+          I love to work in creative enviroments in close collaboration with the design
+          departement.
           </div>
-          <div>If you'd like to get in touch, contact me at esidesio@gmail.com</div>
+          <div className="paragraph leftAlign">If you'd like to get in touch, contact me at esidesio@gmail.com</div>
         </div>
         <div>
           <div className="heading2">Skills</div>
