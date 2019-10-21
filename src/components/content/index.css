@@ -70,3 +70,24 @@
 .logoBig {
   width: 6rem;
 }
+
+@media (max-width: 768px) {
+  .content {
+    grid-template-rows: 18rem 15rem 15rem 18rem 18rem 15rem 15rem 18rem;
+    grid-template-columns: 14.7rem 14.7rem 14.7rem;
+  }
+  .textContainer {
+    grid-column: span 2;
+    padding: 0 4rem;
+  }
+  .wide {
+    grid-column: span 3;
+    padding: 0 8.5rem;
+  }
+  .logo {
+    width: 2.2rem;
+  }
+  .logoBig {
+    width: 4rem;
+  }
+}

@@ -45,3 +45,31 @@
   width: 2rem;
   margin-right: 0.3rem;
 }
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 4rem;
+  }
+  .rightContainer {
+    width: 35rem;
+    padding-left: 1rem;
+  }
+  .leftContainer {
+    width: 30rem;
+  }
+  .imageProfile {
+    width: 12rem;
+  }
+  .location {
+    margin-top: 0.5rem;
+  }
+  .socialIcons {
+    margin-top: 2rem;
+  }
+  .skillsHeader {
+    margin-top: 1.2rem;
+  }
+  .icon {
+    margin-right: 0.5rem;
+  }
+}

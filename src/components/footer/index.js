@@ -26,12 +26,12 @@ function Footer() {
           <div className="paragraph leftAlign">If you'd like to get in touch, contact me at esidesio@gmail.com</div>
         </div>
         <div>
-          <div className="heading2">Skills</div>
+          <div className="heading2 skillsHeader">Skills</div>
           <div className="subHeading spaceSmall">HTML, CSS, JavaScript, React</div>
           <div className="subHeading">Sketch, InDesign, Illustrator,
           Photoshop, Premiere Pro</div>
         </div>
-        <div>
+        <div className="socialIcons">
           <a href="https://github.com/emeliesidesio" target="_blank" rel="noreferrer noopener">
             <img className="icon" src={github} alt="Github"/>
           </a>
