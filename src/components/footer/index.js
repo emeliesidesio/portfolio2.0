@@ -13,7 +13,7 @@ function Footer() {
         <img className="imageProfile" src={profile} alt="Emelie Sidesiö"/>
         <div className="location">
           <img className="pin" src={pin} alt="Location"/>
-          <div className="subHeading">Stockholm, Sweden</div>
+          <div className="subHeading">Stockholm</div>
         </div>
       </div>
       <div className="rightContainer">

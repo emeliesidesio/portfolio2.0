@@ -1,31 +1,31 @@
 .footer {
   display: flex;
   justify-content: center;
-  padding: 7rem;
+  padding: 5rem;
   background: white;
   margin: 0 2rem;
 }
 
 .imageProfile {
-  width: 15rem;
+  width: 12rem;
   border-radius: 50%;
 }
 
 .pin {
-  width: 1.5rem;
+  width: 1.2rem;
   margin-right: 0.3rem;
 }
 
 .leftContainer {
-  width: 20rem;
+  width: 25%;
+  margin-right: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .rightContainer {
-  width: 30rem;
-  padding-left: 2rem;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -43,33 +43,13 @@
 
 .icon {
   width: 2rem;
-  margin-right: 0.3rem;
+  margin-right: 0.5rem;
 }
 
-@media (max-width: 768px) {
-  .footer {
-    padding: 4rem;
-  }
-  .rightContainer {
-    width: 35rem;
-    padding-left: 1rem;
-  }
-  .leftContainer {
-    width: 30rem;
-  }
-  .imageProfile {
-    width: 12rem;
-  }
-  .location {
-    margin-top: 0.5rem;
-  }
-  .socialIcons {
-    margin-top: 2rem;
-  }
-  .skillsHeader {
-    margin-top: 1.2rem;
-  }
-  .icon {
-    margin-right: 0.5rem;
-  }
+.skillsHeader {
+  margin-top: 1.5rem;
+}
+
+.socialIcons {
+  margin-top: 2rem;
 }

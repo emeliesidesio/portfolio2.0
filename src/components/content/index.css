@@ -1,19 +1,36 @@
 .content {
-  display: grid;
-  grid-template-rows: 20rem 20rem 20rem 20rem;
-  grid-template-columns: 19rem 19rem 19rem 19rem;
-  margin: 0 2rem;
-  background: white;
+  width: 1280px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gridItem {
+  height: 40vh;
+  flex: 25%;
+  padding: 2rem;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wide {
+  flex: 50%;
+  padding: 4rem;
 }
 
 .imageSmall {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.imageBig {
-  background-size: cover;
 }
 
 .animation {
@@ -50,44 +67,10 @@
   color: white;
 }
 
-.textContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0 1rem;
-}
-
-.wide {
-  grid-column: span 2;
-  padding: 0 5rem;
-}
-
 .logo {
   width: 3rem;
 }
 
 .logoBig {
   width: 6rem;
-}
-
-@media (max-width: 768px) {
-  .content {
-    grid-template-rows: 18rem 15rem 15rem 18rem 18rem 15rem 15rem 18rem;
-    grid-template-columns: 14.7rem 14.7rem 14.7rem;
-  }
-  .textContainer {
-    grid-column: span 2;
-    padding: 0 4rem;
-  }
-  .wide {
-    grid-column: span 3;
-    padding: 0 8.5rem;
-  }
-  .logo {
-    width: 2.2rem;
-  }
-  .logoBig {
-    width: 4rem;
-  }
 }

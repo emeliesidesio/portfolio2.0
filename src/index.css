@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -43,20 +47,4 @@ body {
 
 .padding {
   margin: 0.8rem 0;
-}
-
-@media (max-width: 768px) {
-  .heading1 {
-    font-size: 3.4rem;
-    line-height: 1;
-  }
-  .paragraph {
-    font-size: 0.85rem;
-  }
-  .space {
-    margin-bottom: 0.5rem;
-  }
-  .spaceSmall {
-    margin-bottom: 0.5rem;
-  }
 }
