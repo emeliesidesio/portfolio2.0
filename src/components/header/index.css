@@ -1,7 +1,7 @@
 .header {
   display: flex;
   flex-direction: column;
-  height: 41em;
+  height: 42em;
 }
 
 .headerCopy {

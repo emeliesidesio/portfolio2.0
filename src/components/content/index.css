@@ -11,9 +11,8 @@
 }
 
 .gridItem {
-  min-width: 12rem;
   height: 40vh;
-  flex: 25%;
+  flex: 1 1 25%;
   padding: 2rem;
   position: relative;
   overflow: hidden;
@@ -24,9 +23,8 @@
 }
 
 .wide {
-  flex: 50%;
+  flex: 1 1 50%;
   padding: 4rem;
-  min-width: 34.5rem;
 }
 
 .imageSmall {
@@ -75,4 +73,56 @@
 
 .logoBig {
   width: 6rem;
+}
+
+@media (max-width: 980px) {
+  .gridItem {
+    flex: 1 1 50%;
+    padding: 3.5rem;
+    height: 45vh;
+  }
+  .wide {
+    flex: 1 1 100%;
+    padding: 8rem;
+  }
+  .logo {
+    width: 2.2rem;
+  }
+  .logoBig {
+    width: 4rem;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 320px)  {
+  .content {
+    padding: 0;
+  }
+  .gridItem {
+    height: 35vh;
+  }
+  .wide {
+    padding: 5rem;
+  }
+}
+
+@media (max-width: 414px) and (min-width: 320px) {
+  .gridItem {
+    padding: 1.2rem;
+    height: 32vh;
+  }
+  .wide {
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .gridItem {
+    height: 37vh;
+  }
+  .logo {
+    width: 1.8rem;
+  }
+  .logoBig {
+    width: 3.2rem;
+  }
 }
