@@ -17,7 +17,7 @@
 }
 
 .leftContainer {
-  width: 25%;
+  width: 14rem;
   margin-right: 2rem;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .rightContainer {
-  width: 50%;
+  max-width: 30rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -52,4 +52,40 @@
 
 .socialIcons {
   margin-top: 2rem;
+}
+
+@media (max-width: 750px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem;
+    text-align: center;
+  }
+  .leftAlign {
+    text-align: center;
+  }
+  .location {
+    margin-bottom: 1rem;
+  }
+  .leftContainer {
+    margin-right: 0;
+  }
+  .rightContainer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 320px)  {
+  .footer {
+    margin: 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .footer {
+    padding: 2rem;
+  }
+  .rightContainer {
+    width: 90%;
+  }
 }

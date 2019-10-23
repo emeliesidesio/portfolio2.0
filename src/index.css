@@ -12,39 +12,61 @@ body {
 }
 
 .heading1 {
-  font-size: 4rem;
+  font-size: 4em;
   font-family: 'EB Garamond', serif;
   color: #ffa7c6;
   line-height: 1.1;
 }
 
 .heading2 {
-  font-size: 2rem;
+  font-size: 2em;
   font-family: 'EB Garamond', serif;
 }
 
 .subHeading {
-  font-size: 0.6rem;
+  font-size: 0.6em;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 400;
 }
 
 .paragraph {
-  font-size: 0.9rem;
+  font-size: 0.9em;
   font-weight: 300;
   letter-spacing: 0.5px;
   text-align: center;
 }
 
 .space {
-  margin-bottom: 1rem;
+  margin-bottom: 1em;
 }
 
 .spaceSmall {
-  margin-bottom: 0.2rem;
+  margin-bottom: 0.2em;
 }
 
 .padding {
-  margin: 0.8rem 0;
+  margin: 0.8em 0;
+}
+
+@media (max-width: 750px) and (min-width: 320px) {
+  .heading1 {
+    font-size: 3.2em;
+  }
+  .paragraph {
+    font-size: 0.7em;
+  }
+  .heading2 {
+    font-size: 1.7em;
+  }
+  .subHeading {
+    font-size: 0.5em;
+    letter-spacing: 2px;
+  }
+}
+
+@media (max-width: 375px) {
+  .heading1 {
+    font-size: 2.5em;
+  }
 }

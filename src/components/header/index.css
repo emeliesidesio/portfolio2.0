@@ -1,6 +1,42 @@
 .header {
   display: flex;
   flex-direction: column;
-  width: 47rem;
-  padding: 8rem 0 19rem 8rem;
+  height: 41em;
+}
+
+.headerCopy {
+  position: absolute;
+  top: 6em;
+  left: 6em;
+  max-width: 36rem;
+  min-width: 22rem;
+}
+
+@media (max-width: 750px) and (min-width: 599px) {
+  .headerCopy {
+    max-width: 28rem;
+  }
+}
+
+@media (max-width: 600px) and (min-width: 320px)  {
+  .headerCopy {
+    top: 3.5em;
+    left: 3.5em;
+    max-width: 15rem;
+  }
+  .header {
+    height: 38em;
+  }
+}
+
+@media (max-width: 375px) {
+  .headerCopy {
+    top: 3em;
+    left: 3em;
+    min-width: 8rem;
+    max-width: 17rem;
+  }
+  .header {
+    height: 32em;
+  }
 }
