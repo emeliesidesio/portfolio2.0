@@ -31,12 +31,12 @@
 
 @media (max-width: 375px) {
   .headerCopy {
-    top: 3em;
-    left: 3em;
+    top: 3.5em;
+    left: 2.5em;
     min-width: 8rem;
-    max-width: 17rem;
+    max-width: 18rem;
   }
   .header {
-    height: 32em;
+    height: 38em;
   }
 }
